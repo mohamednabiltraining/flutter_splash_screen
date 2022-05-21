@@ -3,7 +3,7 @@
 
 [![Download](https://img.shields.io/badge/Download-v1.0.0+6-ff69b4.svg) ](https://pub.dartlang.org/packages/flutter_splash_screen)
 [ ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](https://github.com/crazycodeboy/flutter_splash_screen/pulls)
-[ ![flutter_splash_screen release](https://img.shields.io/github/release/crazycodeboy/flutter_splash_screen.svg?maxAge=2592000?style=flat-square)](https://github.com/crazycodeboy/GitHubPopular/releases)
+[ ![flutter_splash_screen release](https://img.shields.io/github/release/crazycodeboy/flutter_splash_screen.svg?maxAge=2592000?style=flat-square)](https://github.com/crazycodeboy/flutter_splash_screen/releases)
 [ ![语言 中文](https://img.shields.io/badge/语言-中文-feb252.svg)](https://github.com/crazycodeboy/flutter_splash_screen/blob/master/README.zh.md)
 [![License MIT](http://img.shields.io/badge/license-MIT-orange.svg?style=flat)](https://raw.githubusercontent.com/crazycodeboy/flutter-check-box/master/LICENSE)
 [ ![RN](https://img.shields.io/badge/react-native-brightgreen.svg)](https://github.com/crazycodeboy/react-native-splash-screen)
