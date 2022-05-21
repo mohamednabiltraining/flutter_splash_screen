@@ -1,7 +1,7 @@
 # flutter_splash_screen
 
 
-[![Download](https://img.shields.io/badge/Download-v0.1.0-ff69b4.svg) ](https://pub.dartlang.org/packages/flutter_splash_screen)
+[![Download](https://img.shields.io/badge/Download-v1.0.0+6-ff69b4.svg) ](https://pub.dartlang.org/packages/flutter_splash_screen)
 [ ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](https://github.com/crazycodeboy/flutter_splash_screen/pulls)
 [ ![flutter_splash_screen release](https://img.shields.io/github/release/crazycodeboy/flutter_splash_screen.svg?maxAge=2592000?style=flat-square)](https://github.com/crazycodeboy/GitHubPopular/releases)
 [ ![语言 中文](https://img.shields.io/badge/语言-中文-feb252.svg)](https://github.com/crazycodeboy/flutter_splash_screen/blob/master/README.zh.md)
@@ -26,7 +26,7 @@ A splash screen API for flutter which can programatically hide and show the spla
 
 
 
-## Examples  
+## Examples
 * [Examples](https://github.com/crazycodeboy/flutter_splash_screen/tree/master/example)
 
 ![flutter_splash_screen-Android](https://raw.githubusercontent.com/crazycodeboy/react-native-splash-screen/v3.0.0/examples/Screenshots/react-native-splash-screen-Android.gif)
@@ -42,7 +42,7 @@ Add this to your package's pubspec.yaml file:
 
 ```dart
 dependencies:
-  flutter_splash_screen: ^xxx
+flutter_splash_screen: ^xxx
 ```
 
 ### 2. Install it
@@ -75,7 +75,7 @@ import io.flutter.plugins.GeneratedPluginRegistrant;
 public class MainActivity extends FlutterActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
- +       SplashScreen.show(this, true);// here
+        +       SplashScreen.show(this, true);// here
         super.onCreate(savedInstanceState);
         GeneratedPluginRegistrant.registerWith(this);
     }
@@ -86,7 +86,7 @@ public class MainActivity extends FlutterActivity {
 
 No need for this step.
 
-## Getting started  
+## Getting started
 
 ### Import it
 
@@ -175,7 +175,7 @@ Change your `show` method to include your custom style:
 SplashScreen.show(this, R.style.SplashScreenTheme);
 ```
 
-### iOS    
+### iOS
 
 Customize your splash screen via  `LaunchScreen.storyboard`,
 
@@ -211,7 +211,7 @@ class _MyAppState extends State<MyApp> {
       FlutterSplashScreen.hide();
     });
   }
-...
+  ...
 ```
 
 ## API

@@ -4,8 +4,6 @@ import android.app.Activity;
 import android.app.Dialog;
 import android.os.Build;
 
-import org.devio.flutter.splashscreen.flutter_splash_screen.R;
-
 import java.lang.ref.WeakReference;
 
 /**

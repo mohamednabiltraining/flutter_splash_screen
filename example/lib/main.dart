@@ -3,11 +3,13 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_splash_screen/flutter_splash_screen.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(const MyApp());
 
 class MyApp extends StatefulWidget {
+  const MyApp({Key? key}) : super(key: key);
+
   @override
-  _MyAppState createState() => _MyAppState();
+  State<MyApp> createState() => _MyAppState();
 }
 
 class _MyAppState extends State<MyApp> {
@@ -20,7 +22,7 @@ class _MyAppState extends State<MyApp> {
 
   ///hide your splash screen
   Future<void> hideScreen() async {
-    Future.delayed(Duration(milliseconds: 3600), () {
+    Future.delayed(const Duration(milliseconds: 3600), () {
       FlutterSplashScreen.hide();
     });
   }
@@ -32,7 +34,7 @@ class _MyAppState extends State<MyApp> {
         appBar: AppBar(
           title: const Text('flutter_splash_screen'),
         ),
-        body: Center(
+        body: const Center(
           child: Text('by CrazyCodeBoy',style: TextStyle(fontSize: 20),),
         ),
       ),

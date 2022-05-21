@@ -1,13 +1,12 @@
-import 'dart:async';
-
-import 'package:flutter/services.dart';
+import 'flutter_splash_screen_platform_interface.dart';
 
 class FlutterSplashScreen {
-  static const MethodChannel _channel =
-      const MethodChannel('flutter_splash_screen');
+  Future<String?> getPlatformVersion() {
+    return FlutterSplashScreenPlatform.instance.getPlatformVersion();
+  }
 
   ///hide splash screen
-  static Future<Null> hide() async {
-    await _channel.invokeMethod('hide');
+  static Future<void> hide() {
+    return FlutterSplashScreenPlatform.instance.hide();
   }
 }
